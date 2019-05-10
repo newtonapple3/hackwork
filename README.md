@@ -1,12 +1,12 @@
 
-The PenTesters Framework (PTF)
+Hackwork (#PTF)
 ===
 
 #### A TrustedSec Project - Copyright 2018
 
-### Written by: David Kennedy (@HackingDave)
+### Tuned Written by: Me 
 
-https://www.trustedsec.com
+
 
 ### Twitter: @TrustedSec, @HackingDave
 
@@ -22,13 +22,12 @@ First check out the config/ptf.config file which contains the base location of w
 
 This will put you in a Metasploitesque type shell which has a similar look and feel for consistency. Show modules, use `<modules>`, etc. are all accepted commands. First things first, always type help or `?` to see a full list of commands.
 
-For a video tutorial on how to use PTF, check out our Vimeo page here: https://vimeo.com/137133837
 
 ### Update EVERYTHING!
 
 If you want to install and/or update everything, simply do the following:
 ```
-./ptf
+./runme
 use modules/install_update_all
 yes
 ```
@@ -40,7 +39,7 @@ You can also individually install each module, then use the  use modules/update_
 For example:
 
 ```
-./ptf
+./runme
 use modules/update_installed
 ```
 
@@ -51,7 +50,7 @@ You can also show options to change information about the modules.
 If you only want to install only for example exploitation tools, you can run:
 
 ```
-./ptf
+./runme
 use modules/exploitation/install_update_all
 ```
 
